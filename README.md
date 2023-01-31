@@ -5,6 +5,7 @@ A simple extension allowing you to fold sections in CC docs
 
 - Sections of [CC docs](https://doc.commandbot.me/) become foldable
 > ![Feature preview](guide/preview.gif)
+> [Watch as a video](guide/preview.mp4)
 
 ## Installation
 1. Download the [extension.zip](extension.zip) file
@@ -12,7 +13,7 @@ A simple extension allowing you to fold sections in CC docs
 3. Turn on the developer mode
 4. Drag in the file
 > ![Installation](guide/installation.gif)
-> [High-res](guide/installation.mp4)
+> [Watch as a video](guide/installation.mp4)
 ## Supported platforms
 Should work an all Chromium-based browsers but has been tested on `Chrome` and `Vivaldi`.
 
