@@ -15,7 +15,7 @@ A simple extension allowing you to fold sections in CC docs
 Should work an all Chromium-based browsers but has been tested on `Chrome` and `Vivalid`.
 
 ## Custom Command
-This extension adds more functionality to documentation of [Custom Command bot](https://ccommandbot.com).
+This extension adds more functionality to the documentation of [Custom Command bot](https://ccommandbot.com).
 This is not an official extension, and I am neither the owner of the documentation, nor the Custom Command bot.
 
 ## Support
