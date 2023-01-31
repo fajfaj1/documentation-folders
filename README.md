@@ -4,19 +4,20 @@ A simple extension allowing you to fold sections in CC docs
 ## Features
 
 - Sections of [CC docs](https://doc.commandbot.me/) become foldable
+> ![Feature preview](guide/featurePreview.gif)
 
 ## Installation
-1. Download the [extension.zip](https://github.com/fajfaj1/documentation-folders/raw/514dd583c0be5ea0e319e32a4662cab0cfd2eb45/extension.zip) file
+1. Download the [extension.zip](extension.zip) file
 2. Open extensions tab in your browser
 3. Turn on the developer mode
 4. Drag in the file
-> ![Turning on developer mode](https://github.com/fajfaj1/documentation-folders/blob/main/guide.png?raw=true)
+> ![Installation preview](guide/preview1080p.mp4)
 ## Supported platforms
-Should work an all Chromium-based browsers but has been tested on `Chrome` and `Vivalid`.
+Should work an all Chromium-based browsers but has been tested on `Chrome` and `Vivaldi`.
 
 ## Custom Command
 This extension adds more functionality to the documentation of [Custom Command bot](https://ccommandbot.com).
-This is not an official extension, and I am neither the owner of the documentation, nor the Custom Command bot.
+This is not an official extension, and neither am I the owner of the documentation, nor the Custom Command bot.
 
 ## Support
 Found a bug? Wanna suggest a feature? 
