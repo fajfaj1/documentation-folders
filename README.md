@@ -11,7 +11,7 @@ A simple extension allowing you to fold sections in CC docs
 2. Open extensions tab in your browser
 3. Turn on the developer mode
 4. Drag in the file
-> ![Installation preview](guide/preview1080p.mp4)
+
 ## Supported platforms
 Should work an all Chromium-based browsers but has been tested on `Chrome` and `Vivaldi`.
 
