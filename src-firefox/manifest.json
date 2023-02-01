@@ -1,0 +1,40 @@
+{
+    "manifest_version": 3,
+    "name": "CC documentation folders",
+    "version": "2.0",  
+    
+    "browser_specific_settings": {
+      "gecko": {
+        "id": "folders@ccommandbot.com"
+      }
+    },
+    
+
+    "description": "A simple extension allowing you to fold sections in CC docs",
+    "icons": {
+      "791": "icon.png"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.png"
+    },
+    
+    "permissions": [
+      "storage"
+    ],
+     	
+
+    "host_permissions": [
+      "*://doc.ccommandbot.com/*"
+    ],
+
+    "author": "fajfaj#6941", 
+    "content_scripts": [
+        {
+          "matches": ["https://doc.ccommandbot.com/*"],
+          "css": ["styles.css"],
+          "js": ["fold.js"],
+          "run_at": "document_end"
+        }
+      ]
+}

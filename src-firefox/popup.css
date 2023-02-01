@@ -1,0 +1,100 @@
+
+
+html {
+    --background: #22272e;
+    --foreground: #adbac7;
+    --foreground-light: #c5d2df;
+    --input: #2f3136;
+    --input-outline: #1c1e20;
+    --input-outline-darker: #181a1b;
+    --brand: #3aa675;
+    --brand-darker: #349469;
+}
+
+
+body {
+    width: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    color: var(--foreground);
+    background-color: var(--background);
+    line-height: 1.5em;
+    font-size: large;
+}
+
+header {
+    font-size: x-large;
+    margin-bottom: 10px;
+    color: var(--brand);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+select:hover {
+    outline-color: var(--brand);
+}
+
+
+
+select {
+    width: 100%;
+    color: var(--foreground);
+    background-color: var(--input-outline);
+    outline: 2px solid var(--input-outline);
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: var(--brand);
+    color: var(--foreground-light);
+    font-size: large;
+    outline: 2px solid var(--brand);
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: var(--brand-darker);
+    outline-color: var(--brand-darker);
+}
+span.extName {
+    margin-left: 5px;
+}
+
+.logoBox > img {
+    height: 32px;
+}
+
+.statusBar {
+    width: 100%;
+    height: 50px;
+    background-color: var(--brand);
+    color: var(--background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+
+    margin-bottom: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--input-outline);
+    display: none;
+    opacity: 0;
+    transition: 0.5s opacity;
+}
+
+.statusBar:hover {
+    /* background-color: var(--input-outline-darker); */
+    background-color: var(--brand-darker);
+}
+
+[clickable] {
+    cursor: pointer;
+}
+

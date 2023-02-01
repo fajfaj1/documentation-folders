@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="popup.css">
+    <title>CC documentation folders</title>
+</head>
+<body>
+    <header><div class="logoBox"><img src="icon.png"></div><span class="extName">CC documentation folders</span></header>
+    <div class="statusBar" id="statusBar" ghost clickable>
+        <div id="status" class="status">The config has been saved successfully!</div>
+    </div>
+    <!-- <form> -->
+    <div class="form">
+        <label for="state" clickable>Default state</label>
+        <br>
+        <select id="state" clickable>
+            <option>Folded</option>
+            <option>Unfolded</option>
+        </select>
+        <br><br>
+        <label for="favicon" clickable>Replace favicon</label>
+        <select id="favicon" clickable>
+            <option></option>
+            <option>Custom Command bot</option>
+            <option>Dashboard</option>
+        </select>
+        <br><br>
+        <button clickable id="save">Save</button>
+        <br>
+        <p id="result"> </p>
+    <!-- </form> -->
+    </div>
+
+    <script src="./config.js"></script>
+</body>
+</html>
