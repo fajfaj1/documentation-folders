@@ -8,6 +8,7 @@ function loadConfig() {
             const favicon = config.favicon
             console.log(defaultState)
             initiateFolders(defaultState.toLowerCase())
+            setFavicon(favicon)
         })
 }
 
@@ -44,4 +45,17 @@ function change(section, state) {
 function getConfig() {
     let config = chrome.storage.sync.get(['state', 'favicon'])
     return config
+}
+
+function setFavicon(icon) {
+    let link = ""
+    if(icon=='Custom Command bot') {
+        link = `https://cdn.discordapp.com/icons/832255686783533066/f7131f694c6e1a2bd9c360d8b525d4e3.webp`
+    } else if(icon=='Dashboard') {
+        link = `https://ccommandbot.com/public/landing/cc.png`
+    }
+    const fav = document.createElement('link')
+    fav.rel = 'shortcut icon'
+    fav.href = link
+    document.querySelector('head').appendChild(fav)
 }

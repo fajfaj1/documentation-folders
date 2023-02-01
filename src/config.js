@@ -49,3 +49,13 @@ function saveComplete() {
     setTimeout(() => {statusBar.style.opacity = 1})
 }
 
+function setFavicon(icon) {
+    if(icon=='Custom Command bot') {
+        const link = `https://cdn.discordapp.com/icons/832255686783533066/f7131f694c6e1a2bd9c360d8b525d4e3.webp`
+    } else if(icon=='Dashboard') {
+        const link = `https://ccommandbot.com/public/landing/cc.png`
+    } else {
+        const link = ""
+    }
+    document.querySelector('head').append(`<link rel="shortcut icon" href="${link}">`)
+}
