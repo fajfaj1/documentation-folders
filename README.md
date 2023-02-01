@@ -3,10 +3,12 @@ A simple extension allowing you to fold sections in CC docs
 
 ## Features
 
-- Sections of [CC docs](https://doc.commandbot.me/) become foldable
+- Sections of [CC docs](https://doc.ccommandbot.com/) become foldable
 > ![Feature preview](guide/preview.gif)
 > [Watch as a video](guide/preview.mp4)
 
+- Gives you control over the favicon
+  
 ## Installation
 1. Download the [extension.zip](extension.zip?raw=true) file
 2. Open extensions tab in your browser
