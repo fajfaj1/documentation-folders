@@ -17,14 +17,6 @@ There are currently two builds available:
 - **Firefox** - A special build for firefox signed by Mozilla
 > [Firefox installation guide](guide/firefox.md)
 
-## Installation
-1. Download the [extension.zip](/builds/chromium/extension.zip?raw=true) file
-2. Open extensions tab in your browser
-3. Turn on the developer mode
-4. Drag in the file
-> ![Installation](guide/installation.gif)
-> [Watch as a video](guide/installation.mp4)
-
 ## Custom Command
 This extension adds more functionality to the documentation of [Custom Command bot](https://ccommandbot.com).
 This is not an official extension, and neither am I the owner of the documentation, nor the Custom Command bot.
