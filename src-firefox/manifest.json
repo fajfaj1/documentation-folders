@@ -5,7 +5,8 @@
     
     "browser_specific_settings": {
       "gecko": {
-        "id": "folders@ccommandbot.com"
+        "id": "folders@ccommandbot.com",
+        "update_url": "https://raw.githubusercontent.com/fajfaj1/documentation-folders/main/builds/firefox/manifest.json"
       }
     },
     
