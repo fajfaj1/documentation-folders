@@ -1,9 +1,13 @@
 {
     "addons": {
-      "folders@ccommandbot.com ": {
+      "{folders@ccommandbot.com}": {
         "updates": [
           {
             "version": "2.0",
+            "update_link": "https://github.com/fajfaj1/documentation-folders/blob/main/builds/firefox/extension.zip?raw=true"
+          },
+          {
+            "version": "2.1",
             "update_link": "https://github.com/fajfaj1/documentation-folders/blob/main/builds/firefox/extension.zip?raw=true"
           }
         ]
