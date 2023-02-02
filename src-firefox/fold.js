@@ -2,15 +2,13 @@
 addEventListener('load', loadConfig)
 
 function loadConfig() {
-    console.log('Folders - loading fold.js')
     getConfig()
         .then(config => {
             const defaultState = config.state
             const favicon = config.favicon
-            console.log(defaultState)
             initiateFolders(defaultState.toLowerCase())
             setFavicon(favicon)
-            console.log('Folders - fold.js loaded')
+            console.log('CC documentation folder has been loaded successfully.')
         })
 }
 
@@ -23,7 +21,6 @@ function initiateFolders(defaultState) {
 
         change(section, defaultState)
         header.addEventListener('click', () => {
-            console.log('clicked', section)
             const state = section.getAttribute('state')
 
 

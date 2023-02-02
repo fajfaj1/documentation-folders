@@ -28,8 +28,7 @@ function restore() {
             fields.forEach(id => {
                 document.getElementById(id).value = config[id]
             })
-
-            console.log(config)    
+ 
         })
     
 }
@@ -44,7 +43,6 @@ function saveComplete() {
         statusBar.style.opacity = 0
         setTimeout(() => {statusBar.style.display = 'none' }, '500')
     })
-    console.log(statusBar)
     statusBar.style.display = 'flex'
     setTimeout(() => {statusBar.style.opacity = 1})
 }
